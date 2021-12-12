@@ -2,8 +2,10 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
   container: {
-    flexDirection: "row",
     padding: 10,
+  },
+  row: {
+    flexDirection: "row",
   },
   inputContainer: {
     flexDirection: "row",
@@ -33,6 +35,15 @@ const styles = StyleSheet.create({
   buttonText: {
     color: "white",
     fontSize: 35,
+  },
+  imageContainer: {
+    flexDirection: "row",
+    margin: 10,
+    alignSelf: "stretch",
+    justifyContent: "space-between",
+    borderWidth: 1,
+    borderColor: "lightgrey",
+    borderRadius: 10,
   },
 });
 

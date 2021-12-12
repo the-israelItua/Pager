@@ -10,7 +10,6 @@ const ChatRoom = () => {
 
   const navigation = useNavigation();
 
-  navigation.setOptions({ title: "Israel" });
   return (
     <SafeAreaView style={styles.page}>
       <FlatList

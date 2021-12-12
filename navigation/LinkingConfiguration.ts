@@ -27,6 +27,11 @@ const linking: LinkingOptions<RootStackParamList> = {
           HomeScreen: "one",
         },
       },
+      Users: {
+        screens: {
+          UsersScreen: "four",
+        },
+      },
       ChatRoom: {
         screens: {
           ChatRoomScreen: "three",

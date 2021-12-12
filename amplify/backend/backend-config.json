@@ -75,5 +75,11 @@
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }
+  },
+  "storage": {
+    "s35704bdfc": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
   }
 }
